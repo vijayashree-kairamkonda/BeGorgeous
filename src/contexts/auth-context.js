@@ -1,7 +1,7 @@
 import { createContext, useContext, useState} from "react";
 
 
-const AuthContext = createContext({ isLoggedIn: false });
+const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) =>{
 

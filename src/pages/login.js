@@ -14,13 +14,14 @@ export const Login= ()=>{
 
 
 
-    const loginHandler = async (e,email,password)=>{ 
+    const loginHandler = async (e,email,password)=>{   
         e.preventDefault();
-        try{
+        try{console.log(email,password)
             const response = await axios.post(`/api/auth/login`, {
                 email,
                 password
             })
+            console.log(response)
             if (response.status === 200){
                 localStorage.setItem("token", response.data.encodedToken);
                 setIsLoggedIn((login)=> !login)
