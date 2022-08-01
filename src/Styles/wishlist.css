@@ -1,0 +1,11 @@
+.wishlist-selected {
+  color: crimson;
+}
+
+.wishlist-container {
+  width: 100%;
+}
+
+.wishlist-card-btn{
+  background-color: bisque;
+}

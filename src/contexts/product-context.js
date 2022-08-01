@@ -50,7 +50,7 @@ const ProductProvider = ({ children }) => {
         categoryFilter = data.filter(
           (item) => item.title.toLowerCase() === brand.toLowerCase()
         );
-        newFiltered = [...newFiltered, ...categoryFilter];
+         return newFiltered =[...newFiltered, ...categoryFilter];
         
       });
       return newFiltered;

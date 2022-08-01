@@ -3,6 +3,8 @@
 @import url('/src/Styles/productlisting.css');
 @import url('/src/Styles/login.css');
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("/src/Styles/wishlist.css");
+@import url("/src/Styles/cart.css");
 
 
 body{
