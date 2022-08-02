@@ -14,8 +14,8 @@
 
 .img-overlay-text {
   position: absolute;
-  top: 20%;
-  left: 5%;
+  top: 2rem;
+  left: 3rem;
   font-style: italic;
   padding: 10rem 0rem;
   font-size: x-large;

@@ -70,3 +70,9 @@
 }
 
 
+@media screen and (max-width: 480px) {
+   .cart-sidebar{
+    min-height: 15rem;
+    
+   }
+  }

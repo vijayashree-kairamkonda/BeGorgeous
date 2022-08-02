@@ -2,6 +2,9 @@
     width: 100%;
     display: flex;
     background-color: #fefcf9;
+  
+  
+
 }
 
 
@@ -134,3 +137,11 @@
     margin: 0.5rem 0.5rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+  }
